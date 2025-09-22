@@ -4,7 +4,7 @@ metadata:
   annotations:
     test: jdddd
   labels:
-    region: us-east-1
+    region: us-east-1ddd
   name: testhttpproxy
 spec:
   routes:
