@@ -1,1 +1,37 @@
-
+apiVersion: projectcontour.io/v1
+kind: HTTPProxy
+metadata:
+  annotations:
+    test: jdddd
+  labels:
+    region: us-east-1
+  name: testhttpproxy
+spec:
+  routes:
+    - 
+      conditions:
+        - prefix: /
+      healthCheckPolicy:
+        healthyThresholdCount: 1
+        intervalSeconds: 60
+        path: /ping123456
+        timeoutSeconds: 5
+        unhealthyThresholdCount: 3
+      permitInsecure: true
+      services:
+        - name: o71ab3df9ssss545e
+          port: 8080
+          weight: 100
+        - name: o71ab3df9ssss545e-canary
+          port: 8080
+          weight: 0
+        - name: o71ab3df95sss45e-01-exp
+          port: 8080
+          weight: 0
+        - name: o71abcsdc3dfsssscdcsdsd9545e-02-exp
+          port: 8080
+          weight: 0
+      timeoutPolicy:
+        idle: 5m0s
+        idleConnection: 0m58s
+        response: 1m0s
