@@ -11,7 +11,7 @@ spec:
     - 
       conditions:
         - prefix: /pre1
-      mykey: 'test1'
+      # mykey: 'test1'
       healthCheckPolicy:
         healthyThresholdCount: 1
         intervalSeconds: 60
@@ -39,7 +39,7 @@ spec:
     - 
       conditions:
         - prefix: /pre2
-      mykey: 'test2'
+      # mykey: 'test2'
       healthCheckPolicy:
         healthyThresholdCount: 1
         intervalSeconds: 60
@@ -67,7 +67,7 @@ spec:
     - 
       conditions:
         - prefix: /pre3
-      mykey: 'test3'
+      # mykey: 'test3'
       healthCheckPolicy:
         healthyThresholdCount: 1
         intervalSeconds: 60
