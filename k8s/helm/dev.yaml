@@ -48,10 +48,10 @@ spec:
       services:
         - name: o71ab3df9ssss545e
           port: 8080
-          weight: 70
+          weight: 90
         - name: o71ab3df9ssss545e-canary
           port: 8080
-          weight: 30
+          weight: 10
         - name: o71ab3df95sss45e-01-exp
           port: 8080
           weight: 0
