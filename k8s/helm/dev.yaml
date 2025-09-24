@@ -14,7 +14,7 @@ spec:
       healthCheckPolicy:
         healthyThresholdCount: 1
         intervalSeconds: 60
-        path: /ping1234
+        path: /ping
         timeoutSeconds: 5
         unhealthyThresholdCount: 3
       permitInsecure: true
