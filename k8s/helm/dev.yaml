@@ -10,7 +10,7 @@ spec:
   routes:
     - 
       conditions:
-        - prefix: /pre12
+        - prefix: /pre123455
       mykey: 'test1'
       healthCheckPolicy:
         healthyThresholdCount: 1
