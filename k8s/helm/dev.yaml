@@ -14,7 +14,7 @@ spec:
       healthCheckPolicy:
         healthyThresholdCount: 1
         intervalSeconds: 60
-        path: /ping1
+        path: /newping1
         timeoutSeconds: 5
         unhealthyThresholdCount: 3
       permitInsecure: true
@@ -41,7 +41,7 @@ spec:
       healthCheckPolicy:
         healthyThresholdCount: 1
         intervalSeconds: 60
-        path: /ping2
+        path: /newping2
         timeoutSeconds: 5
         unhealthyThresholdCount: 3
       permitInsecure: true
@@ -68,7 +68,7 @@ spec:
       healthCheckPolicy:
         healthyThresholdCount: 1
         intervalSeconds: 60
-        path: /ping3
+        path: /newping3
         timeoutSeconds: 5
         unhealthyThresholdCount: 3
       permitInsecure: true
