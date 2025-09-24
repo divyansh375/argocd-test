@@ -15,7 +15,7 @@ spec:
       healthCheckPolicy:
         healthyThresholdCount: 1
         intervalSeconds: 60
-        path: /finalnewestping2
+        path: /finalnewestping2sasa
         timeoutSeconds: 5
         unhealthyThresholdCount: 3
       permitInsecure: true
@@ -43,7 +43,7 @@ spec:
       healthCheckPolicy:
         healthyThresholdCount: 1
         intervalSeconds: 60
-        path: /finalnewestping3
+        path: /finalnewestping3saaas
         timeoutSeconds: 5
         unhealthyThresholdCount: 3
       permitInsecure: true
