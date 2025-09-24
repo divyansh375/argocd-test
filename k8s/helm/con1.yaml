@@ -26,4 +26,4 @@ spec:
       - name: nginx2
         image: nginx:1.14.2
         ports:
-        - containerPort: 90
+        - containerPort: 8080
