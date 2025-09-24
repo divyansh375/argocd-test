@@ -19,12 +19,12 @@ spec:
         unhealthyThresholdCount: 3
       permitInsecure: true
       services:
-        - name: o71ab3df9ssss545e-canary
-          port: 8080
-          weight: 100
         - name: o71ab3df9ssss545e
           port: 8080
-          weight: 0
+          weight: 80
+        - name: o71ab3df9ssss545e-canary
+          port: 8080
+          weight: 20
         - name: o71ab3df95sss45e-01-exp
           port: 8080
           weight: 0
