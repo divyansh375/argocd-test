@@ -4,7 +4,7 @@ metadata:
   annotations:
     test: jdddd
   labels:
-    region: us-east-1dddccccc
+    region: us-east-1
   name: testhttpproxy
 spec:
   routes:
@@ -14,15 +14,15 @@ spec:
       healthCheckPolicy:
         healthyThresholdCount: 1
         intervalSeconds: 60
-        path: /pingq2234kjbjh
+        path: /ping
         timeoutSeconds: 5
         unhealthyThresholdCount: 3
       permitInsecure: true
       services:
-        - name: o71ab3df9ssss545e
+        - name: o71ab3df9ssss545e-canary
           port: 8080
           weight: 100
-        - name: o71ab3df9ssss545e-canary
+        - name: o71ab3df9ssss545e
           port: 8080
           weight: 0
         - name: o71ab3df95sss45e-01-exp
